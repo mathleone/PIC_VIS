@@ -1,0 +1,9 @@
+INDEX VERSION 1.127
+/home/victor/workspace/VIS2048/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1492625920.index
+/biblioteca/src/main/java
+/home/victor/workspace/VIS2048/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1357207383.index
+/biblioteca/src/main/java
+/home/victor/workspace/VIS2048/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/261734429.index
+/biblioteca/src/main/java
+/home/victor/workspace/VIS2048/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2549471730.index
+/biblioteca/src/main/java

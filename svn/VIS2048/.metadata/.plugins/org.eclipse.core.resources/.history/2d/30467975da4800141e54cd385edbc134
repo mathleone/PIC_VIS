@@ -1,0 +1,22 @@
+package prototipo;
+
+import javax.swing.JFrame;
+
+public class SpringFrame extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+
+	private SpringPanel currentPanel;
+
+	public SpringFrame() {
+		currentPanel = new SpringPanel();
+		setupFrame();
+	}
+	
+	private void setupFrame() {
+		setContentPane(currentPanel);
+		setSize(500, 500);
+		setVisible(true);
+	}
+
+}

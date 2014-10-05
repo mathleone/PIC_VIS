@@ -1,0 +1,34 @@
+package prototipo;
+
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.SpringLayout;
+
+public class SpringPanel extends JPanel {
+
+	private static final long serialVersionUID = 1L;
+	private JButton testButton;
+	private JTextArea textArea;
+	private SpringLayout currentLayout;
+	
+	public SpringPanel() {
+		setForeground(new Color(255, 255, 255));
+		setBackground(new Color(0, 0, 153));
+		testButton = new JButton("Click Here!");
+		textArea = new JTextArea();
+		currentLayout = new SpringLayout();
+		setupPanel();
+	}
+	
+	private void setupPanel() {
+		this.setLayout(currentLayout);
+		this.add(testButton);
+		this.add(textArea);
+		currentLayout.putConstraint(SpringLayout.WEST, testButton, 103, SpringLayout.WEST, this);
+		currentLayout.putConstraint(SpringLayout.SOUTH, testButton, -124, SpringLayout.SOUTH, this);
+	}
+	
+}

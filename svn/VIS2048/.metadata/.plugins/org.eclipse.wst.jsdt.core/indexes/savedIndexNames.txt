@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/home/victor/workspace/VIS2048/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1867792828.index
+748984727.index
+2854771552.index
+1546541954.index
+2326788940.index
